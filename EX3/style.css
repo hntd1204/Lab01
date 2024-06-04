@@ -1,0 +1,96 @@
+.thanhdautrang {
+    background-color: #0066CC;
+    /* Đổi màu nền thanh điều hướng */
+    display: flex;
+    /* Đặt thanh điều hướng nằm ngang */
+    justify-content: space-between;
+    /* Căn giữa các mục trong thanh điều hướng */
+    align-items: center;
+    /* Căn chỉnh logo vào chính giữa theo chiều dọc */
+    padding: 10px 20px;
+    /* Khoảng cách bên trong thanh điều hướng */
+    width: 100%;
+    /* Đặt chiều rộng của thanh điều hướng là 100% */
+}
+
+.thanhdautrang p {
+    color: gray;
+    /* Đổi màu chữ */
+    text-align: right;
+    /* Khoảng cách text căn phải */
+    margin: 20px;
+    /* Khoảng cách giữa các thẻ p trong thanhdautrang */
+}
+
+.thanhdautrang p:hover {
+    color: white;
+    /* Đặt màu chữ khi di chuột qua */
+}
+
+.logovtc {
+    width: 10%;
+    /*Rộng*/
+    height: 10%;
+    /*Cao*/
+    margin-right: 700px;
+    margin-left: 150px;
+}
+
+.noidung {
+    display: flex;
+    display: flex;
+    /* Đặt các phần tử nằm ngang cùng hàng */
+    align-items: flex-start;
+    padding: 50px 150px;
+}
+
+.video {
+    padding-right: 20px;
+    /* Khoảng cách bên phải của video */
+}
+
+.video iframe {
+    width: 560px;
+    /* Đặt chiều rộng của iframe */
+    height: 315px;
+    /* Đặt chiều cao cho iframe */
+}
+
+/*--------Lấy trên Codepen---------*/
+.timhieuthem {
+    margin-top: 25px;
+}
+
+.timhieuthem a {
+    background-color: #4e92df;
+    border-radius: 2px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 23px;
+}
+
+/*---------------------------------*/
+
+.text2 {
+    background-color: #33CCFF;
+    text-align: center;
+    /*Căn giữa*/
+    color: white;
+    padding: 20px;
+    /*Khoảng cách bên trong*/
+    width: 76%;
+    margin: 0 auto;
+    /*Căn giữa phần tử*/
+}
+
+.text3 p {
+    text-align: center;
+    /*Căn giữa*/
+    font-size: x-large;
+    /*Kích cỡ chữ*/
+    margin-top: 40px;
+    /* Khoảng cách từ trên xuống tạo khoảng trống */
+}

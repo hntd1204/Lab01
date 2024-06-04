@@ -1,0 +1,39 @@
+p {
+    color: red;
+    font-size: 20px;
+}
+
+li {
+    color: blue;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#list-item {
+    color: blue;
+}
+
+div p {
+    border: 1px solid black;
+    background-color: lightblue;
+    pading: 30px 20px 10px 20px;
+    height: 100px;
+    width: 50%;
+}
+
+body {
+    background-color: aqua;
+}
+
+/*Cho hình ảnh vô giữa*/
+img {
+    float: right;
+    margin-right: 50%;
+    transform: translatex(50%);
+}
+
+/*hoặc
+margin-left: auto;
+margin-right: auto;
+display: block;
+*/
